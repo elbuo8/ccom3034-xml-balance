@@ -21,6 +21,7 @@ public:
 
     // Reads the file and returns a list of all the tags used
     QStringList toTagList();
+    bool isBalanced(QStringList xml);
 
 };
 
